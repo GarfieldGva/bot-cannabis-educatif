@@ -100,8 +100,13 @@ $acc="Avez vous déjà consommé du cannabis ?";
              fputs($socket, "PRIVMSG ".$ex[2]." :Pourquoi les choses qui n'arrivent qu'aux imbéciles m'arrivent à moi aussi ?\r\n");
          } 	 
 	 
-	 	if (strstr($data,"préservatif")) {
-             fputs($socket, "PRIVMSG ".$ex[2]." :Faites l'amour pas la guerre. une boite de préservatif coûte moins cher qu'une bombe nucléaire.\r\n");
+	 	if (strstr($data,"landrace")) {
+             fputs($socket, "PRIVMSG ".$ex[2]." :Une pure variété de cannabis "landrace" est une variété de cannabis issue de son milieu naturel, qui n’a jamais été croisée avec aucune autre variété, uniquement avec elle-même depuis de très nombreuses générations. 
+             Ces variétés donnent donc des résultats très stables avec peu de variations d’une plante à l’autre.
+             La plupart des variétés landrace sont 100% Indica ou 100% Sativa, bien qu’il existe quelques exceptions. 
+             La variété de Cannabis landrace porte souvent le nom de son pays ou de sa région d’origine. Exemples : Hindu Kush (Indica), Acapulco Gold (Sativa)...
+             Les variétés de cannabis landrace sont la base des autres variétés de marijuana.
+             Les variétés pures ont l’avantage de proposer des palettes de goûts et d’effets très originaux car différents des variétés hybrides actuelles. \r\n");
          } 	 
 	 
 		 
